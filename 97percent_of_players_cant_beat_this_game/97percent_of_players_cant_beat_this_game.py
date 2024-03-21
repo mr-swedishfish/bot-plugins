@@ -42,7 +42,7 @@ class Misc(commands.Cog):
 
     # Bozo Meter
     @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['bozo', 'bozometer', 'bozorate'])
+    @commands.command(aliases=['bozometer', 'bozorate'])
     async def bozo(self, ctx: commands.Context, member: commands.MemberConverter = None):
         """Are you a bozo?"""
         if member is None:
