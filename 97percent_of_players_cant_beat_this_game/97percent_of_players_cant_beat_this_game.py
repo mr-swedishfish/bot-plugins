@@ -40,10 +40,10 @@ class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    # Gaydar
+    # Bozo Meter
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['bozo', 'bozometer', 'bozorate'])
-    async def gaydar(self, ctx: commands.Context, member: commands.MemberConverter = None):
+    async def bozo(self, ctx: commands.Context, member: commands.MemberConverter = None):
         """Are you a bozo?"""
         if member is None:
             member = ctx.author
