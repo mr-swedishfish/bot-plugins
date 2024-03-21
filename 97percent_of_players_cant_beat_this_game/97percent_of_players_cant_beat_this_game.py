@@ -31,7 +31,11 @@ BOZO_STICKERS = [
 EIGHT_BALL_TITLES = [
     'Robin has thought about this...',
     'Robin has decided...',
-    'Robin has consulted Xipe...'
+    'Robin has consulted Xipe...',
+    'Robin has set aside some time to think about this...',
+    'Robin has concluded...',
+    'Robin has gathered some information...',
+    'Robin has inferred...'
 ]
 
 class Misc(commands.Cog):
