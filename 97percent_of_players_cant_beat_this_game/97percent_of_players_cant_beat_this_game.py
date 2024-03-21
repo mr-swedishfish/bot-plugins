@@ -18,7 +18,7 @@ NONBOZO_ROLE = 1158884021460291594
 HALFBOZO_ROLE = 1158883963817971822
 BOZO_ROLE = 1158883765070856202
 BOZO_STICKERS = [
-    "https://media.discordapp.net/attachments/887963616182145044/1220476218101600336/935D7DC6-3CD4-4F14-BAD9-91E2DD8C3CA3.png?ex=660f140d&is=65fc9f0d&hm=120406e1e1bcf5fee87cbaa584f6b77abf911176b5744e8e9f7e0619eeb9d5af&=&format=webp&quality=lossless&width=655&height=655"'
+    "https://media.discordapp.net/attachments/887963616182145044/1220476218101600336/935D7DC6-3CD4-4F14-BAD9-91E2DD8C3CA3.png?ex=660f140d&is=65fc9f0d&hm=120406e1e1bcf5fee87cbaa584f6b77abf911176b5744e8e9f7e0619eeb9d5af&=&format=webp&quality=lossless&width=655&height=655",
     "https://media.discordapp.net/attachments/887963616182145044/1220476218562969682/Robin_Heart.png?ex=660f140d&is=65fc9f0d&hm=dff58447ff06e7feec447b2718ba33eab3f45ae173299bf54ec6e0e93376b79f&=&format=webp&quality=lossless&width=480&height=480",
     "https://media.discordapp.net/attachments/887963616182145044/1220476219355697192/Robin_peek.png?ex=660f140e&is=65fc9f0e&hm=891362027443010a448a39459ec9264534afa661debdcc666f2113ab4d8dc05a&=&format=webp&quality=lossless&width=655&height=655",
     "https://media.discordapp.net/attachments/887963616182145044/1220476220123123764/Robin_Sip.png?ex=660f140e&is=65fc9f0e&hm=3975149e69d87585ca86672641f6a19e28d60d1d9b20721ba6c04c112cbcc20d&=&format=webp&quality=lossless&width=655&height=655",
