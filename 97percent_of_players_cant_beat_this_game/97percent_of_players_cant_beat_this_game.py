@@ -44,6 +44,25 @@ class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    # Odds for an outcome
+    @checks.has_permissions(PermissionLevel.REGULAR)
+    @commands.command(aliases=['odds', 'probability', 'prob'])
+    async def outcome(self, ctx: commands.Context, member: commands.MemberConverter = None):
+        """Measure the odds for a specific outcome!"""
+
+        num = random.randrange(10001) / 100
+
+        embed = discord.Embed(
+            title=f"Robin has decided that...",
+            colour=discord.Colour.random()
+        )
+        embed.add_field(name='Event', value=text)
+        embed.add_field(name="Probability", value=f"This event is **{num}%** likely.", inline=False)
+        embed.set_thumbnail(url=random.choice(BOZO_STICKERS))
+
+        await ctx.send(embed=embed)
+
+    
     # Bozo Meter
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['bozometer', 'bozorate'])
