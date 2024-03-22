@@ -62,6 +62,41 @@ class HahaFunny(commands.Cog):
 
         await ctx.send(embed=embed)
 
+    # Vibe Check
+    @checks.has_permissions(PermissionLevel.REGULAR)
+    @commands.command(aliases=['vibe', 'check', 'vb'])
+    async def vibecheck(self, ctx: commands.Context, member: commands.MemberConverter = None):
+        """Do you pass the vibe check?"""
+        if member is None:
+            member = ctx.author
+
+        num = random.randint(0, 9)
+
+        with open(f'{DIR}/vibecheck.json') as f:
+            ans = json.load(f)
+
+        if num < 3:
+            thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220476243762479124/robin_faint.png?ex=660f1413&is=65fc9f13&hm=5fd9f527a306361e3396ceb68c9a7a5a2cb7aa36f67daea605f45177edde5438&=&format=webp&quality=lossless&width=655&height=655"
+            emote = discord.utils.get(ctx.guild.emojis, id=1211059820698796052)
+            answer = random.choice(ans[2]["negative"])
+        elif num < 6:
+            thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220476220123123764/Robin_Sip.png?ex=660f140e&is=65fc9f0e&hm=3975149e69d87585ca86672641f6a19e28d60d1d9b20721ba6c04c112cbcc20d&=&format=webp&quality=lossless&width=655&height=655"
+            emote = discord.utils.get(ctx.guild.emojis, id=1201386255049564200)
+            answer = random.choice(ans[1]["neutral"])
+        elif num < 10:
+            thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220476218562969682/Robin_Heart.png?ex=660f140d&is=65fc9f0d&hm=dff58447ff06e7feec447b2718ba33eab3f45ae173299bf54ec6e0e93376b79f&=&format=webp&quality=lossless&width=480&height=480"
+            emote = discord.utils.get(ctx.guild.emojis, id=1211077629499805788)
+            answer = random.choice(ans[0]["positive"])
+        else:  # Easter egg
+            thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
+            emote = "🐛"
+            answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
+
+        embed = discord.Embed(
+            title=f"Robin is vibe checking...",
+            description=f"value={emote} {answer}",
+            colour=discord.Colour.random()
+        )
     
     # Bozo Meter
     @checks.has_permissions(PermissionLevel.REGULAR)
