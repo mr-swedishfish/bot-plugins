@@ -97,6 +97,7 @@ class HahaFunny(commands.Cog):
             description=f"{emote} {member.display_name} {answer}",
             colour=discord.Colour.random()
         )
+        embed.set_thumbnail(url=thumbnail)
         
         await ctx.send(embed=embed)
     
