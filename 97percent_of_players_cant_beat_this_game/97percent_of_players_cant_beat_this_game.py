@@ -97,6 +97,8 @@ class HahaFunny(commands.Cog):
             description=f"value={emote} {member.display_name} {answer}",
             colour=discord.Colour.random()
         )
+        
+        await ctx.send(embed=embed)
     
     # Bozo Meter
     @checks.has_permissions(PermissionLevel.REGULAR)
