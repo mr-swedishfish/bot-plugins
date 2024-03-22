@@ -94,7 +94,7 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"Robin is vibe checking...",
-            description=f"value={emote} {member.display_name} {answer}",
+            description=f"{emote} {member.display_name} {answer}",
             colour=discord.Colour.random()
         )
         
