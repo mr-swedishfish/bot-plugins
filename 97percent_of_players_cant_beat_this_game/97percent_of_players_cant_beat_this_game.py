@@ -64,7 +64,7 @@ class HahaFunny(commands.Cog):
 
     # Vibe Check
     @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['vibe', 'check', 'vb'])
+    @commands.command(aliases=['vibe', 'check', 'vb', 'vc'])
     async def vibecheck(self, ctx: commands.Context, member: commands.MemberConverter = None):
         """Do you pass the vibe check?"""
         if member is None:
