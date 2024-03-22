@@ -1,49 +1,49 @@
 [
     {
         "positive" : [
-            "It is certain.",
-            "Without a doubt.",
-            "Sunday has told me that it is possible.", 
-            "Yes, definitely.", 
-            "It is decidedly so.", 
-            "As I see it, yes.", 
-            "Most likely.", 
-            "I firmly believe that it is true.", 
-            "Whatever you dream for will come true.", 
-            "You may rely on it.",
-            "Signs point to a positive outcome. May Xipe be with us!",
-            "My senses tell me that your desired outcome is true."]
+            "passed the vibe check!",
+            "is someone who has good vibes.",
+            "is my skrunkliest pookie.", 
+            "is one of my beloved fans.", 
+            "is my absolute favorite person.", 
+            "is probably someone with good vibes.", 
+            "has decent vibes.", 
+            "seems to have nice vibes.", 
+            "barely passed the vibe check!", 
+            "passed the vibe check with flying colors!",
+            "has the best vibes of all time!",
+            "most likely passed the vibe check."]
     },
     
     {
         "neutral": [
-            "I'm afraid I can't tell you now.",  
-            "It is difficult to discern the answer to this.",
-            "Concentrate and ask again.",
-            "Sunday has advised me to avoid answering this question.",
-            "The answer to this is a secret I must keep from my fans.",
-            "If you join the Family, you will find your answer.",
-            "Following The Harmony will give you your desired outcome.",
-            "If you pray to Xipe, your question will be answered.",
-            "According to the Watchmaker, the answer lies within your dreams.",
-            "You may find your answer in a dream.",
-            "You already know the answer to this question.",
-            "I'm busy practicing my vocals right now. Try asking again later.",
-            "Let's discuss this later, after my performance!"]
+            "might have passed the vibe check... I can't tell.",  
+            "has okay vibes.",
+            "sort of passed the vibe check.",
+            "has inconsistent vibes.",
+            "has mid vibes.",
+            "is pretty mid.",
+            "would have better results if they join The Family!",
+            "should probably not ask for a vibe check.",
+            "should ask for a vibe check later.",
+            "is hard to read.",
+            "already knows their vibes.",
+            "should ask someone else to vibe check them.",
+            "should watch my upcoming performance first... then I'll tell you!"]
     },
     
     {
         "negative" : [
-            "Don't count on it.", 
-            "Sunday has told me that it is not possible.", 
-            "Some things are better not asking, as you will only fear the answer.", 
-            "Very doubtful.", 
-            "My reply is no.",
-            "You won't like my response to this question.",
-            "This is a topic we cannot discuss in Penacony.",
-            "My intuition tells me no.",
-            "Unfortunately, this doesn't seem very likely.",
-            "I don't really see it."]
+            "is... UH OH, STINKY!!", 
+            "failed the vibe check!", 
+            "almost passed the vibe check... but didn't.", 
+            "failed the vibe check... count your days.", 
+            "would rather not know their vibe check results.",
+            "did not pass the vibe check.",
+            "is pretty sus.",
+            "has the worst vibes ever. Don't ever talk to me again.",
+            "gives me the ick!",
+            "is kinda lame..."]
     }
         
 ]
