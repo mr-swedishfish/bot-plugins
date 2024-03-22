@@ -14,6 +14,8 @@
             "has the best vibes of all time!",
             "is my most successful experiment!",
             "is someone I find interesting.",
+            "is someone I'd like to share my desserts with.",
+            "is invited to watch traditional opera with me!",
             "most likely passed the vibe check."]
     },
     
@@ -25,10 +27,11 @@
             "has inconsistent vibes.",
             "has mid vibes.",
             "is pretty mid.",
-            "would have better results if they joined the Genius Society!",
+            "would have better results if they joined the Genius Society.",
             "should probably not ask for a vibe check.",
             "should ask for a vibe check later.",
             "is hard to read.",
+            "is difficult to understand.",
             "already knows their vibes.",
             "should ask someone else to vibe check them.",
             "needs more experimentation.",
@@ -47,9 +50,11 @@
             "has the worst vibes ever. Don't ever talk to me again.",
             "gives me the ick!",
             "is kinda lame...",
-            "is... ew, I don't want to talk about it",
+            "is... ew, I don't want to talk about it.",
             "is worse than a failed experiment.",
             "is considered a failed experiment.",
+            "is someone I'd rather stay away from.",
+            "is someone I would abandon for critter cakes.",
             "is a POOPYHEAD!!!"]
     }
         
