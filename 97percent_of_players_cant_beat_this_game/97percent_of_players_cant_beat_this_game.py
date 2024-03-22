@@ -38,8 +38,8 @@ EIGHT_BALL_TITLES = [
     'Robin has inferred...'
 ]
 
-class Misc(commands.Cog):
-    """Funpost Plugin"""
+class HahaFunny(commands.Cog):
+    """97% of players can't beat this game!!"""
 
     def __init__(self, bot):
         self.bot = bot
