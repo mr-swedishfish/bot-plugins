@@ -53,7 +53,7 @@ class Misc(commands.Cog):
         num = random.randrange(10001) / 100
 
         embed = discord.Embed(
-            title=f"Robin measured the odds...",
+            title=f"Robin has measured the odds...",
             colour=discord.Colour.random()
         )
         embed.add_field(name='Event', value=text)
