@@ -47,7 +47,7 @@ class Misc(commands.Cog):
     # Odds for an outcome
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['odds', 'probability', 'prob'])
-    async def outcome(self, ctx: commands.Context, member: commands.MemberConverter = None):
+    async def outcome(self, ctx: commands.Context, *, text: str):
         """Measure the odds for a specific outcome!"""
 
         num = random.randrange(10001) / 100
