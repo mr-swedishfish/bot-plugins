@@ -117,7 +117,7 @@ class HahaFunny(commands.Cog):
             description=f"{member.display_name} is **{num}%** gay.",
             colour=discord.Colour.random()
         )
-        embed.set_thumbnail(url=random.choice(gay_STICKERS))
+        embed.set_thumbnail(url=random.choice(GAY_STICKERS))
 
         # funi footer if anyone gets either
         if num == 0:
