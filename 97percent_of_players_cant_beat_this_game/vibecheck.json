@@ -4,7 +4,7 @@
             "passed the vibe check!",
             "is someone who has good vibes.",
             "is my skrunkliest pookie.", 
-            "is one of my beloved fans.", 
+            "is one of my beloved clients.", 
             "is my absolute favorite person.", 
             "is probably someone with good vibes.", 
             "has decent vibes.", 
@@ -12,6 +12,11 @@
             "barely passed the vibe check!", 
             "passed the vibe check with flying colors!",
             "has the best vibes of all time!",
+            "is my favorite client!",
+            "is someone I find interesting.",
+            "is someone I'd like to share my wealth with.",
+            "is promoted to be my assistant!",
+            "is given a raise for having the best vibes!",
             "most likely passed the vibe check."]
     },
     
@@ -23,13 +28,15 @@
             "has inconsistent vibes.",
             "has mid vibes.",
             "is pretty mid.",
-            "would have better results if they join The Family!",
+            "would have better results if they joined the IPC!",
             "should probably not ask for a vibe check.",
             "should ask for a vibe check later.",
             "is hard to read.",
+            "is difficult to understand.",
             "already knows their vibes.",
             "should ask someone else to vibe check them.",
-            "should watch my upcoming performance first... then I'll tell you!"]
+            "should pay their taxes before asking for a vibe check.",
+            "should wait until after I'm finished with my work."]
     },
     
     {
@@ -43,7 +50,13 @@
             "is pretty sus.",
             "has the worst vibes ever. Don't ever talk to me again.",
             "gives me the ick!",
-            "is kinda lame..."]
+            "is kinda lame...",
+            "is... ew, I don't want to talk about it.",
+            "needs to PAY THEIR TAXES!!!",
+            "committed a felony and is now a wanted criminal by the IPC.",
+            "has committed tax evasion. I am in your walls.",
+            "is worse than a tax evader.",
+            "is a POOPYHEAD!!!"]
     }
         
 ]
