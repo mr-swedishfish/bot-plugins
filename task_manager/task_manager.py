@@ -1,6 +1,7 @@
 import discord
 import os
 from discord.ext import commands
+bot = discord.task_manager()
 
 @bot.slash_command()
 async def modal_slash(ctx: discord.ApplicationContext):
