@@ -2,6 +2,8 @@ import discord
 import os
 from discord.ext import commands
 
+bot = discord.Bot()
+
 task = bot.create_group("create")
 
 @task.command()
