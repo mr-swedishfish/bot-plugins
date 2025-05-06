@@ -93,7 +93,7 @@ class HahaFunny(commands.Cog):
             thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220612435069763614/Ruan_Mei_Love.png?ex=660f92ea&is=65fd1dea&hm=e56c7aca85a65d055431c51583c3a6e8b0bd63fcf60612815f1ecb9132443399&=&format=webp&quality=lossless&width=655&height=655"
             emote = discord.utils.get(ctx.guild.emojis, id=1160566321306673233)
             answer = random.choice(ans[0]["positive"])
-        elif num = 100:
+        elif num == 100:
             thumbnail = "https://images-ext-1.discordapp.net/external/PU1lx5ZwM7y13xF8hynVRja-z3zGhKynu8cIRknJNw0/https/cdn.discordapp.com/emojis/1293305929344876635.gif?width=168&height=168"
             emote = discord.utils.get(ctx.guild.emojis, id=1161619042486976613)
             answer = random.choice(ans[3]["special"])
