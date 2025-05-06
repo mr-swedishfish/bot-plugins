@@ -81,18 +81,22 @@ class HahaFunny(commands.Cog):
         with open(f'{DIR}/vibecheck.json') as f:
             ans = json.load(f)
 
-        if num < 3:
+        if num < 4:
             thumbnail = "https://media.discordapp.net/attachments/1178573924548743198/1178573924896882688/ruan_mei_skill_issue_1.png?ex=660a4b80&is=65f7d680&hm=9e579ca330a3b0719e3fd96d1fa76b47b8bd86d4a845584f1765c1b75b4cd51d&=&format=webp&quality=lossless&width=655&height=655"
             emote = discord.utils.get(ctx.guild.emojis, id=1209013690922303528)
             answer = random.choice(ans[2]["negative"])
-        elif num < 6:
+        elif num < 7:
             thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220612598966259732/Ruan_Mei_Curious.png?ex=660f9311&is=65fd1e11&hm=babd7156b248876d37cfaaadc99acf35139df7d24c53fa63311a497e4802652a&=&format=webp&quality=lossless&width=349&height=349"
             emote = discord.utils.get(ctx.guild.emojis, id=1185286958713409677)
             answer = random.choice(ans[1]["neutral"])
-        elif num < 10:
+        elif num < 9:
             thumbnail = "https://media.discordapp.net/attachments/887963616182145044/1220612435069763614/Ruan_Mei_Love.png?ex=660f92ea&is=65fd1dea&hm=e56c7aca85a65d055431c51583c3a6e8b0bd63fcf60612815f1ecb9132443399&=&format=webp&quality=lossless&width=655&height=655"
             emote = discord.utils.get(ctx.guild.emojis, id=1160566321306673233)
             answer = random.choice(ans[0]["positive"])
+        elif num < 10:
+            thumbnail = "https://images-ext-1.discordapp.net/external/PU1lx5ZwM7y13xF8hynVRja-z3zGhKynu8cIRknJNw0/https/cdn.discordapp.com/emojis/1293305929344876635.gif?width=168&height=168"
+            emote = discord.utils.get(ctx.guild.emojis, id=1161619042486976613)
+            answer = random.choice(ans[3]["special"])
         else:  # Easter egg
             thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
             emote = "🐛"
