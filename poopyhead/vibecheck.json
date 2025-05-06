@@ -16,6 +16,10 @@
             "is someone I find interesting.",
             "is someone I'd like to share my desserts with.",
             "is invited to watch traditional opera with me!",
+            "is invited to be my lab assistant!",
+            "is someone I'd send silly wubbaboo stickers to.",
+            "was gifted my delicious desserts.",
+            "received an embroidery gift from me.",
             "most likely passed the vibe check."]
     },
     
@@ -25,12 +29,15 @@
             "has okay vibes.",
             "sort of passed the vibe check.",
             "has inconsistent vibes.",
+            "is someone I'd perform secret experiments on.",
             "has mid vibes.",
             "is pretty mid.",
             "would have better results if they joined the Genius Society.",
             "should probably not ask for a vibe check.",
             "should ask for a vibe check later.",
             "is hard to read.",
+            "should help me out in my lab first.",
+            "ate my desserts... but they had some weird ingredients in it.",
             "is difficult to understand.",
             "already knows their vibes.",
             "should ask someone else to vibe check them.",
@@ -41,6 +48,10 @@
     {
         "negative" : [
             "is... UH OH, STINKY!!", 
+            "is going to be fed to the Swarm.",
+            "just got drugged, and now it's too late.",
+            "has been eaten by the Swarm.",
+            "has fallen victim to Herta's cooking.",
             "failed the vibe check!", 
             "almost passed the vibe check... but didn't.", 
             "failed the vibe check... count your days.", 
@@ -50,6 +61,9 @@
             "has the worst vibes ever. Don't ever talk to me again.",
             "gives me the ick!",
             "is kinda lame...",
+            "is a little weird.",
+            "is... who?",
+            "is someone I'd leave on read.",
             "is... ew, I don't want to talk about it.",
             "is worse than a failed experiment.",
             "is considered a failed experiment.",
@@ -57,5 +71,12 @@
             "is someone I would abandon for critter cakes.",
             "is a POOPYHEAD!!!"]
     }
-        
+    
+    {
+        "special" : [
+            "just received my special occurrence as a reward!",
+            "has received 2000 Cosmic Fragments!",
+            "just received every Harmony blessing in the Simulataed Universe!",
+            "has been gifted a critter!"]
+    }        
 ]
