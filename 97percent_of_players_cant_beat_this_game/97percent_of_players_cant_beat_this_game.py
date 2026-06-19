@@ -98,7 +98,7 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"Meow Meow is vibe checking...",
-            description=f"{emote} {member.display_name} {answer}",
+            description=f"{member.display_name} {answer}",
             colour=discord.Colour.random()
         )
         embed.set_thumbnail(url=thumbnail)
@@ -173,7 +173,7 @@ class HahaFunny(commands.Cog):
 
         embed.add_field(name='Question', value=text)
         embed.set_thumbnail(url=thumbnail)
-        embed.add_field(name="Answer", value=f"{emote} {answer}", inline=False)
+        embed.add_field(name="Answer", value=f"{answer}", inline=False)
         await ctx.send(embed=embed)
 
 async def setup(bot):
