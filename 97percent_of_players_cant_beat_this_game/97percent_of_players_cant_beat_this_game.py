@@ -18,25 +18,28 @@ HETERO_ROLE = 1158884021460291594
 BI_ROLE = 1158883963817971822
 GAY_ROLE = 1158883765070856202
 GAY_STICKERS = [
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913234802741418/Untitled298_20240301003453.png?ex=66144e61&is=6601d961&hm=ae05631c391dfa4f585837d77c5a123300dc80b1f21b883394551a47713b5b95&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913234358141018/Untitled305_20240311221125.png?ex=66144e61&is=6601d961&hm=d276836a5b8b0fa8201042dfab47382f6a1156940d357edb595f9f501fe0cda2&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913235465175160/Untitled298_20240304223727.png?ex=66144e61&is=6601d961&hm=73ea4fac045b95efac09cfc5dd8184727ded510008fc17291268601e7574e728&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913235842924625/IMG_6547.png?ex=66144e61&is=6601d961&hm=f50f07e987fa5fe49eb8152df948b05003a4bf7c0836ddc37166120acfbd54b5&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913236182667315/IMG_6548.png?ex=66144e61&is=6601d961&hm=e03750b3d7d42ab71ca0223fbeb8164fdfaf5c2afb8a92769b6b2f4af592f458&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913740102992012/IMG_5753.png?ex=66144ed9&is=6601d9d9&hm=4ed2be52b96b89ea29c93d692876935240d7479da7b7047a286b11f5d5b196ee&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221914022404948098/Untitled326_20240325130926.png?ex=66144f1d&is=6601da1d&hm=4a664a9b6167bfed877aeaece64e630ed6fdd0c10b816a94270f9f5174ceedbf&=&format=webp&quality=lossless&width=450&height=450",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913739478175754/IMG_5755.png?ex=66144ed9&is=6601d9d9&hm=ab8522b3901089dc54f04c17df52fbf672d2932e6948fe55c8d170ca093195e8&=&format=webp&quality=lossless&width=655&height=655",
-    "https://media.discordapp.net/attachments/1212916845921828895/1221913740614832148/IMG_5756.png?ex=66144ed9&is=6601d9d9&hm=af8db425af79a16ebd6f23591dff118ffdef7874af3f2e79f947a2f694bdfed6&=&format=webp&quality=lossless&width=655&height=655"
+    "https://images-ext-1.discordapp.net/external/SbYmWpkJ1smzL2QUqP3o0nFb1URbXdk4XGJ71mw1zho/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508619239624800.webp?animated=true&width=22&height=22",
+    "https://images-ext-1.discordapp.net/external/1dAQGRY3GJUwG9zAGXESzCW9z7Yam8o1oKWfpZdj5wg/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/991192870507786320.webp?animated=true&width=141&height=85",
+    "https://images-ext-1.discordapp.net/external/VcRrPcS-kGWPcLJf8n1g_x9uhl135Cq6Ee63h5MzvjI/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463510410035462404.webp?animated=true&width=22&height=22",
+    "https://images-ext-1.discordapp.net/external/VxLLTfNchjWD07N_Jhsc93jhgoU6ucv8ao7bE-Vh3OM/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1493513251856842822.webp?animated=true&width=141&height=141",
+    "https://images-ext-1.discordapp.net/external/ikAjXJMJ_5ymXbw41ffhRzyY75pr3V6xcZWRdfdC9b8/https/cdn.discordapp.com/emojis/1450339910429970524.png?format=webp&quality=lossless&width=53&height=50",
+    "https://images-ext-1.discordapp.net/external/xPsf3T57VZ6RnWrgJ4KWmR_qzXhZ8AsMKCyVbN_NE1E/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1450335483933622272.webp?animated=true&width=110&height=110",
+    "https://images-ext-1.discordapp.net/external/VCczQql38GA_ZLZmYFxPRv7izDmh173Nt5qpvBsmDgg/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463510365299015722.webp?animated=true&width=22&height=22",
+    "https://images-ext-1.discordapp.net/external/pLRuYoTwcCXiabAV6XRMnb-Firmu3bCxCyUqxpiJJqg/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463509331252088979.webp?animated=true&width=22&height=22",
+    "https://images-ext-1.discordapp.net/external/2467LZcm9Y5C_AhNC6YbEJsHQsjVYZnQhaKSdaZvDFo/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1450340288450138346.webp?animated=true&width=83&height=83",
+    "https://images-ext-1.discordapp.net/external/iGoz1YjaE2qRSmeL-_6UBKlJdxS57UDzQRD06wsVNUA/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1450338249628450917.webp?animated=true&width=134&height=141",
+    "https://images-ext-1.discordapp.net/external/Hp7Pimd_erCUUzfec596R3Ej_nTqgRqkzLCKmJBy9Hs/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508135930105939.webp?animated=true&width=22&height=22",
+    "https://images-ext-1.discordapp.net/external/14A9e01s_Wyzx246_Xjbw5iMOrZajuGUcIYJl5jhDvo/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508218788581560.webp?animated=true&width=22&height=22"
 ]
 
 EIGHT_BALL_TITLES = [
-    'Jade has thought about this...',
-    'Jade has decided...',
-    'Jade has consulted the IPC...',
-    'Jade has set aside some time to think about this...',
-    'Jade has concluded...',
-    'Jade has gathered some information...',
-    'Jade has inferred...'
+    'Meow Meow has thought about this...',
+    'Meow Meow has decided...',
+    'Meow Meow has consulted the other cats...',
+    'Meow Meow has set aside some time to think about this...',
+    'Meow Meow has concluded...',
+    'Meow Meow has gathered some information...',
+    'Meow Meow has inferred...'
 ]
 
 class HahaFunny(commands.Cog):
@@ -77,15 +80,15 @@ class HahaFunny(commands.Cog):
             ans = json.load(f)
 
         if num < 3:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221914022404948098/Untitled326_20240325130926.png?ex=66144f1d&is=6601da1d&hm=4a664a9b6167bfed877aeaece64e630ed6fdd0c10b816a94270f9f5174ceedbf&=&format=webp&quality=lossless&width=450&height=450"
+            thumbnail = "https://images-ext-1.discordapp.net/external/9pnYoBxbUvsR2L3xPYJ1L36BC4cQZPPuHV-dt3xNIts/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508538235293831.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1214461577118490695)
             answer = random.choice(ans[2]["negative"])
         elif num < 6:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221913235465175160/Untitled298_20240304223727.png?ex=66144e61&is=6601d961&hm=73ea4fac045b95efac09cfc5dd8184727ded510008fc17291268601e7574e728&=&format=webp&quality=lossless&width=655&height=655"
+            thumbnail = "https://images-ext-1.discordapp.net/external/R2yBf1pcrjQ4WovRcbcPE_jMYfu2SYM_IOmzkZbQ1qI/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508302129270829.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1219369970916397106)
             answer = random.choice(ans[1]["neutral"])
         elif num < 10:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221913236182667315/IMG_6548.png?ex=66144e61&is=6601d961&hm=e03750b3d7d42ab71ca0223fbeb8164fdfaf5c2afb8a92769b6b2f4af592f458&=&format=webp&quality=lossless&width=655&height=655"
+            thumbnail = "https://images-ext-1.discordapp.net/external/Dt78jksPgFwlXr3kqZzA28Y-y2IuwGCRw20uHwBizu0/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508063993598120.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1214461477906550854)
             answer = random.choice(ans[0]["positive"])
         else:  # Easter egg
@@ -94,7 +97,7 @@ class HahaFunny(commands.Cog):
             answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
 
         embed = discord.Embed(
-            title=f"Jade is vibe checking...",
+            title=f"Meow Meow is vibe checking...",
             description=f"{emote} {member.display_name} {answer}",
             colour=discord.Colour.random()
         )
@@ -113,7 +116,7 @@ class HahaFunny(commands.Cog):
         num = random.randrange(10001) / 100
 
         embed = discord.Embed(
-            title=f"The IPC has decided that...",
+            title=f"The cat council has decided that...",
             description=f"{member.display_name} is **{num}%** gay.",
             colour=discord.Colour.random()
         )
@@ -139,7 +142,7 @@ class HahaFunny(commands.Cog):
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['8ball', 'ball'])
     async def magic8ball(self, ctx: commands.Context, *, text: str):
-        """Ask Jade a "Yes or No" question~"""
+        """Ask Meow Meow a "Yes or No" question~"""
 
         num = random.randint(0, 9)
 
@@ -147,15 +150,15 @@ class HahaFunny(commands.Cog):
             ans = json.load(f)
 
         if num < 3:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221913739478175754/IMG_5755.png?ex=66144ed9&is=6601d9d9&hm=ab8522b3901089dc54f04c17df52fbf672d2932e6948fe55c8d170ca093195e8&=&format=webp&quality=lossless&width=655&height=655"
+            thumbnail = "https://images-ext-1.discordapp.net/external/YLnjSR0M2i7KsS0pNzRKzyz6jm19emuRIbIW5yHvqkI/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463509038313766944.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1216443083605020732)
             answer = random.choice(ans[2]["negative"])
         elif num < 6:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221913235465175160/Untitled298_20240304223727.png?ex=66144e61&is=6601d961&hm=73ea4fac045b95efac09cfc5dd8184727ded510008fc17291268601e7574e728&=&format=webp&quality=lossless&width=655&height=655"
+            thumbnail = "https://images-ext-1.discordapp.net/external/R2yBf1pcrjQ4WovRcbcPE_jMYfu2SYM_IOmzkZbQ1qI/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508302129270829.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1214461527784951838)
             answer = random.choice(ans[1]["neutral"])
         elif num < 10:
-            thumbnail = "https://media.discordapp.net/attachments/1212916845921828895/1221913740102992012/IMG_5753.png?ex=66144ed9&is=6601d9d9&hm=4ed2be52b96b89ea29c93d692876935240d7479da7b7047a286b11f5d5b196ee&=&format=webp&quality=lossless&width=655&height=655"
+            thumbnail = "https://images-ext-1.discordapp.net/external/XHOgS2VkA9nLjxElXJywZZi7AjfmWT4XH2WzO8ycrvo/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1463508905945469090.webp?animated=true&width=22&height=22"
             emote = discord.utils.get(ctx.guild.emojis, id=1216133118067609660)
             answer = random.choice(ans[0]["positive"])
         else:  # Easter egg
