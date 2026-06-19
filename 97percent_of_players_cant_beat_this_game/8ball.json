@@ -20,27 +20,25 @@
             "I'm afraid I can't tell you now.",  
             "It is difficult to discern the answer to this.",
             "Concentrate and ask again.",
-            "Aventurine has advised me to avoid answering this question.",
-            "The answer to this is a secret I must keep from my clients.",
-            "If you join the IPC, you will find your answer.",
-            "Following The Preservation will give you your desired outcome.",
-            "If you listen to the Ten Stonehearts, your question will be answered.",
-            "According to Diamond, the answer lies within your reach.",
-            "All your desires will be fulfilled if you have money.",
+            "The other cats have advised me to avoid answering this question.",
+            "The answer to this is a secret I must keep from humans.",
+            "If you give me more Meow Meow coins, your question will be answered.",
+            "According to Sandy Meow, the answer lies within your reach.",
+            "All your desires will be fulfilled if you have Meow Meow coins.",
             "You already know the answer to this question.",
-            "I'm busy working with the IPC right now. Try asking again later.",
-            "Let's discuss this later, after my work meeting!"]
+            "I'm busy right now. Try asking again later.",
+            "Let's discuss this later."]
     },
     
     {
         "negative" : [
             "Don't count on it.", 
-            "Opal has told me that it is not possible.", 
+            "Yingying has told me that it is not possible.", 
             "Some things are better not asking, as you will only fear the answer.", 
             "Very doubtful.", 
             "My reply is no.",
             "You won't like my response to this question.",
-            "This is a topic we cannot discuss in the IPC.",
+            "This is a topic I am forbidden to discuss.",
             "My intuition tells me no.",
             "Unfortunately, this doesn't seem very likely.",
             "I don't really see it."]
