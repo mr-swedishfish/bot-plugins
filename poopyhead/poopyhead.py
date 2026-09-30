@@ -60,7 +60,7 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"Initiating removal operation...",
-            description=f"{member.display_name} is now **banned** from Ruan Mei Mains forever.",
+            description=f"{member.display_name} is now **banned** from Ruan Mei Mains.",
             colour=discord.Colour.random()
         )
         embed.set_thumbnail(url=random.choice(GAY_STICKERS))
