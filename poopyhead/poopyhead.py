@@ -58,7 +58,7 @@ class HahaFunny(commands.Cog):
 
         num = random.randint(0, 100)
 
-        with open(f'{DIR}/pearlgpt.json') as f:
+        with open(f'{DIR}/hsrcharacters.json') as f:
             ans = json.load(f)
 
         if num < 80:
@@ -92,7 +92,7 @@ class HahaFunny(commands.Cog):
 
         num = random.randint(0, 100)
 
-        with open(f'{DIR}/pearlgpt.json') as f:
+        with open(f'{DIR}/hsrcharacters.json') as f:
             ans = json.load(f)
 
         if num < 80:
