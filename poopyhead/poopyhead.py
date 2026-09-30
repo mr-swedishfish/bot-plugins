@@ -53,14 +53,17 @@ class HahaFunny(commands.Cog):
     # PearlGPT T5
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['pearl', 'gpt', 'pearlgpt'])
-    async def pearlgptt5(self, ctx: commands.Context):
-        """Beep Boop. I am PearlGPT, and I will tell you who is T5"""
+    async def pearlgptt5(self, ctx: commands.Context, tier: str = ""):
+        """Beep Boop. I am PearlGPT, and I will tell you who is T0 or T5"""
 
         num = random.randint(0, 100)
 
         with open(f'{DIR}/hsrcharacters.json') as f:
             ans = json.load(f)
 
+        if tier not in ["t0", "t5", "T0", "T5", ""]:
+            return "Please specify either T0, T5, or no tier!"
+        
         if num < 80:
             answer = random.choice(ans[0]["limited"])
         elif num < 90:
@@ -77,8 +80,8 @@ class HahaFunny(commands.Cog):
             answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
 
         embed = discord.Embed(
-            title=f"PearlGPT is checking who is T5 in HSR...",
-            description=f":robot: GENERATING :robot: \n\n10% \n30% \n67% \n100% \n\n:robot: YOUR T5 CHARACTER IS :robot: \n\n# **{answer}**",
+            title=f"PearlGPT is checking who is **{tier}** in HSR...",
+            description=f":robot: GENERATING :robot: \n\n10% \n30% \n67% \n100% \n\n:robot: YOUR **{tier}** CHARACTER IS :robot: \n\n# **{answer}**",
             colour=discord.Colour.random()
         )
         
