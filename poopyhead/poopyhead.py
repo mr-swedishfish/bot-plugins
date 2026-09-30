@@ -52,7 +52,7 @@ class HahaFunny(commands.Cog):
 
     # PearlGPT T5
     @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['pearl t5', 'gpt t5', 'pearlgpt t5'])
+    @commands.command(aliases=['pearl', 'gpt', 'pearlgpt'])
     async def pearlgptt5(self, ctx: commands.Context):
         """Beep Boop. I am PearlGPT, and I will tell you who is T5"""
 
@@ -79,40 +79,6 @@ class HahaFunny(commands.Cog):
         embed = discord.Embed(
             title=f"PearlGPT is checking who is T5 in HSR...",
             description=f":robot: GENERATING :robot: \n10% \n30% \n67% \n100% \n:robot: YOUR T5 CHARACTER IS :robot: \n\n**{answer}**",
-            colour=discord.Colour.random()
-        )
-        
-        await ctx.send(embed=embed)
-
-    # PearlGPT T0
-    @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['pearl t0', 'gpt t0', 'pearlgpt t0'])
-    async def pearlgptt5(self, ctx: commands.Context):
-        """Beep Boop. I am PearlGPT, and I will tell you who is T0"""
-
-        num = random.randint(0, 100)
-
-        with open(f'{DIR}/hsrcharacters.json') as f:
-            ans = json.load(f)
-
-        if num < 80:
-            answer = random.choice(ans[0]["limited"])
-        elif num < 90:
-            answer = random.choice(ans[1]["standard"])
-        elif num < 100:
-            answer = random.choice(ans[2]["four star"])
-        elif num == 100:
-            thumbnail = "https://images-ext-1.discordapp.net/external/PU1lx5ZwM7y13xF8hynVRja-z3zGhKynu8cIRknJNw0/https/cdn.discordapp.com/emojis/1293305929344876635.gif?width=168&height=168"
-            emote = discord.utils.get(ctx.guild.emojis, id=1161619042486976613)
-            answer = random.choice(ans[3]["special"])
-        else:  # Easter egg
-            thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
-            emote = "🐛"
-            answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
-
-        embed = discord.Embed(
-            title=f"PearlGPT is checking who is T0 in HSR...",
-            description=f":robot: GENERATING :robot: \n10% \n30% \n67% \n100% \n:robot: YOUR T0 CHARACTER IS :robot: \n\n**{answer}**",
             colour=discord.Colour.random()
         )
         
