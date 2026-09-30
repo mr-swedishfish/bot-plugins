@@ -52,7 +52,7 @@ class HahaFunny(commands.Cog):
 
     # Fake Ban
     @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['ban'])
+    @commands.command()
     async def ban(self, ctx: commands.Context, member: commands.MemberConverter = None):
         """ur banned."""
         if member is None:
