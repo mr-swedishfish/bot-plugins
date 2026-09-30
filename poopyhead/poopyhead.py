@@ -63,7 +63,7 @@ class HahaFunny(commands.Cog):
             description=f"{member.display_name} is now **banned** from Ruan Mei Mains.",
             colour=discord.Colour.random()
         )
-        embed.set_thumbnail(url=random.choice(GAY_STICKERS))
+        embed.set_thumbnail(url=random.choice(POOP_STICKERS))
         embed.set_footer(text=f"[Goodbye, {member.display_name}. You will not be missed.]")
             
         await ctx.send(embed=embed)
