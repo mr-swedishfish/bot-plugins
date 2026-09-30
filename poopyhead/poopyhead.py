@@ -64,7 +64,7 @@ class HahaFunny(commands.Cog):
             colour=discord.Colour.random()
         )
         embed.set_thumbnail(url=random.choice(POOP_STICKERS))
-        embed.set_footer(text=f"[Goodbye, {member.display_name}. You will not be missed.]")
+        embed.set_footer(text=f"Goodbye, {member.display_name}. You will not be missed.")
             
         await ctx.send(embed=embed)
     
