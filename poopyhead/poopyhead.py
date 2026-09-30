@@ -50,6 +50,24 @@ class HahaFunny(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    # Fake Ban
+    @checks.has_permissions(PermissionLevel.REGULAR)
+    @commands.command(aliases=['ban'])
+    async def gay(self, ctx: commands.Context, member: commands.MemberConverter = None):
+        """ur banned."""
+        if member is None:
+            member = ctx.author
+
+        embed = discord.Embed(
+            title=f"Initiating removal operation...",
+            description=f"{member.display_name} is now **banned** from Ruan Mei Mains forever.",
+            colour=discord.Colour.random()
+        )
+        embed.set_thumbnail(url=random.choice(GAY_STICKERS))
+        embed.set_footer(text=f'[Goodbye, {member.display_name}. You will not be missed.]')
+            
+        await ctx.send(embed=embed)
+    
     # Odds for an outcome
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['odds', 'probability', 'prob'])
