@@ -60,8 +60,8 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"Initiating removal operation...",
-            description=f"{member.display_name} is now **banned** from Ruan Mei Mains.",
-            colour=discord.Colour.random()
+            description=f"{member.mention} is now **banned** from Ruan Mei Mains.",
+            colour=discord.Colour.red()
         )
         embed.set_thumbnail(url=random.choice(POOP_STICKERS))
         embed.set_footer(text=f"Goodbye, {member.display_name}. You will not be missed.")
