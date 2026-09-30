@@ -78,7 +78,7 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"PearlGPT is checking who is T5 in HSR...",
-            description=f":robot: GENERATING :robot: \n10% \n30% \n67% \n100% \n:robot: YOUR T5 CHARACTER IS :robot: \n\n**{answer}**",
+            description=f":robot: GENERATING :robot: \n\n10% \n30% \n67% \n100% \n\n:robot: YOUR T5 CHARACTER IS :robot: \n\n# **{answer}**",
             colour=discord.Colour.random()
         )
         
