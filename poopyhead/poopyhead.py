@@ -102,13 +102,22 @@ class HahaFunny(commands.Cog):
         if member is None:
             member = ctx.author
 
+        footer_choices = [
+            "Goodbye, {}. You will not be missed.",
+            "{} has been fed to the Swarm.",
+            "{} shall be dissected by Ruan Mei."
+            "{} has been drugged by Ruan Mei."
+        ]
+
+        footer_text = chosen_template.format(member.display_name)
+
         embed = discord.Embed(
             title=f"Initiating removal operation...",
             description=f"{member.mention} is now **banned** from Ruan Mei Mains.",
             colour=discord.Colour.red()
         )
         embed.set_thumbnail(url=random.choice(POOP_STICKERS))
-        embed.set_footer(text=f"Goodbye, {member.display_name}. You will not be missed.")
+        embed.set_footer(text=footer_text)
             
         await ctx.send(embed=embed)
     
