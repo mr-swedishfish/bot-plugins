@@ -109,6 +109,7 @@ class HahaFunny(commands.Cog):
             "{} has been drugged by Ruan Mei."
         ]
 
+        chosen_template = random.choice(footer_choices)
         footer_text = chosen_template.format(member.display_name)
 
         embed = discord.Embed(
