@@ -105,7 +105,7 @@ class HahaFunny(commands.Cog):
         footer_choices = [
             "Goodbye, {}. You will not be missed.",
             "{} has been fed to the Swarm.",
-            "{} shall be dissected by Ruan Mei."
+            "{} shall be dissected by Ruan Mei.",
             "{} has been drugged by Ruan Mei."
         ]
 
