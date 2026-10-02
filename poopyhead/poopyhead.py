@@ -106,6 +106,10 @@ class HahaFunny(commands.Cog):
             "Goodbye, {}. You will not be missed.",
             "{} has been fed to the Swarm.",
             "{} shall be dissected by Ruan Mei.",
+            "{} has been forced to eat warp trotter eyes.",
+            "{} has been thrown into space.",
+            "{} is now trapped in the Simulated Universe forever.",
+            "{} has been transformed into a critter.",
             "{} has been drugged by Ruan Mei."
         ]
 
