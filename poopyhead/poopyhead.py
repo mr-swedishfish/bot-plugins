@@ -41,6 +41,13 @@ POOP_STICKERS = [
     "https://media.discordapp.net/attachments/887963616182145044/1220612436609208370/Ruan_Mei_Sigh.png?ex=660f92ea&is=65fd1dea&hm=bc6a0c75c5db11b01217d87201b251d9c3d057b640a33fd0e9d6ee28b0c3a597&=&format=webp&quality=lossless&width=367&height=367",
     "https://media.discordapp.net/attachments/887963616182145044/1220612435069763614/Ruan_Mei_Love.png?ex=660f92ea&is=65fd1dea&hm=e56c7aca85a65d055431c51583c3a6e8b0bd63fcf60612815f1ecb9132443399&=&format=webp&quality=lossless&width=655&height=655",
     "https://media.discordapp.net/attachments/887963616182145044/1220612435485134888/Ruan_Mei_Think.png?ex=660f92ea&is=65fd1dea&hm=8f754899dcc4a28fc281ed59c68bde5b28eede2535adf5cb8c7db212e1def520&=&format=webp&quality=lossless&width=655&height=655",
+    "https://images-ext-1.discordapp.net/external/xh2ZDXJQ4-k0-S0tB6sKCn46PWwAysaQUCmjF_XBF9o/https/cdn.discordapp.com/emojis/1189961968996589598.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/G5iRsUAijjvbd1SPpBI979YXOovRBzfPYmFjjnR7RI0/https/cdn.discordapp.com/emojis/1186948377758408816.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/HR7x5v3-AxdC-9F1reFuGypAMlF6IxR1P988UiNdlUI/https/cdn.discordapp.com/emojis/1165960500681650196.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/n1PD_ZPzMAcUL2BlxzYKbIq7rC3GcYOg7cfUl-zVuXc/https/cdn.discordapp.com/emojis/1240270256467873843.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/U3bo2JI-X_RWgMiebWZniQRNus_cZXDnQ3b032tDpl4/https/cdn.discordapp.com/emojis/1155581415262539826.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/MHca6VjNMnuMuiCm2KXE41Zxltoy7dtstlD8cBgQMkU/https/cdn.discordapp.com/emojis/1185314913518887073.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/iNU51C1PoT3PmOa5G9rxFIyvHE6AQ1iws9fuUP5Y1ys/https/cdn.discordapp.com/emojis/1186205999833554974.png?format=webp&quality=lossless",
     "https://media.discordapp.net/attachments/887963616182145044/1220612436139311124/Ruan_Mei_Yawn.png?ex=660f92ea&is=65fd1dea&hm=e7f143eff843e15bfb3953fae21b0923b1674e0cbf77f299f470b858adb61faa&=&format=webp&quality=lossless&width=655&height=655"
 ]
 
