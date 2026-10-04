@@ -53,7 +53,7 @@ class HahaFunny(commands.Cog):
     # Simulated Universe Occurrences
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['occurrence', 'su', 'domain'])
-    async def occurrence(self, ctx: commands.Context, member: commands.MemberConverter = None):
+    async def occurrences(self, ctx: commands.Context, member: commands.MemberConverter = None):
         """Enter a domain and see what occurrence you get!"""
         
         if member is None:
