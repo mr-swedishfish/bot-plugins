@@ -68,6 +68,13 @@ class HahaFunny(commands.Cog):
             member = ctx.author
             
         num = random.randint(0, 100)
+        normal = ans["normal"]
+        reward = ans["reward"]
+        encounter = ans["encounter"]
+        aberration = ans["aberration"]
+        death = ans["death"]
+        negative = ans["negative"]
+        special = ans["special"]
 
         with open(f'{DIR}/occurrences.json') as f:
             ans = json.load(f)
