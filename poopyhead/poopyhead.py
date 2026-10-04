@@ -96,7 +96,7 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(list(ans["encounter"].keys()))
             image = encounter[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards after a difficult battle."
+            footer=f"{member.display_name} has earned major rewards after a difficult battle."
             icon = "https://images-ext-1.discordapp.net/external/xh2ZDXJQ4-k0-S0tB6sKCn46PWwAysaQUCmjF_XBF9o/https/cdn.discordapp.com/emojis/1189961968996589598.png?format=webp&quality=lossless"
         elif num < 80:
             occurrence = random.choice(list(ans["aberration"].keys()))
