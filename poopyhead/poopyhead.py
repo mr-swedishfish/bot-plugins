@@ -86,12 +86,12 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(ans[encounter.keys()])
             image = encounter[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained rewards after a difficult battle."
+            footer=f"{member.display_name} has gained some rewards after a difficult battle."
         elif num < 80:
             occurrence = random.choice(ans[aberration.keys()])
             image = aberration[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards but also received some negative effects."
+            footer=f"{member.display_name} has gained some rewards, but they also received some negative effects."
         elif num < 90:
             occurrence = random.choice(ans[death.keys()])
             image = death[occurrence]
@@ -106,7 +106,7 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(ans[special.keys()])
             image = special[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has obtained amazing rewards from Ruan Mei!"
+            footer=f"{member.display_name} has received amazing rewards from Ruan Mei! <a:RuanMeiCritterPat:1293305929344876635>"
         else:  # Easter egg
             thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
             emote = "🐛"
