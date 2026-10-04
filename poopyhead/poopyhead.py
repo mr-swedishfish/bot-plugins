@@ -76,32 +76,32 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(ans["normal"].keys())
             image = normal[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some minor rewards."
+            footer=f"{member.display_name} has gained some minor rewards. <:RuanMeiBugcatVibe:1162001731266297917>"
         elif num < 60:
             occurrence = random.choice(ans["reward"].keys())
             image = reward[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some major rewards!"
+            footer=f"{member.display_name} has obtained some major rewards! <a:RuanMeiBugcatNom:1161619042486976613>"
         elif num < 70:
             occurrence = random.choice(ans["encounter"].keys())
             image = encounter[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards after a difficult battle."
+            footer=f"{member.display_name} has gained some rewards after a difficult battle. <:RuanMeiCool:1189961968996589598>"
         elif num < 80:
             occurrence = random.choice(ans["aberration"].keys())
             image = aberration[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards, but they also received some negative effects."
+            footer=f"{member.display_name} has gained some rewards, but they also received some negative effects. <:RuanMeiBugcatStare:1165171669862727771>"
         elif num < 90:
             occurrence = random.choice(ans["death"].keys())
             image = death[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has unfortunately died after a difficult battle."
+            footer=f"{member.display_name} has unfortunately been defeated after a difficult battle. <:RuanMeiCrine:1209013690922303528>"
         elif num < 100:
             occurrence = random.choice(ans["negative"].keys())
             image = negative[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has obtained some negative effects and curios."
+            footer=f"{member.display_name} has obtained some negative effects and curios. <:RuanMeiBugcatGrab:1161653782233489500>"
         elif num == 100:
             occurrence = random.choice(ans["special"].keys())
             image = special[occurrence]
