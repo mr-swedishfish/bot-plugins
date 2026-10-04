@@ -106,7 +106,7 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(ans[special.keys()])
             image = special[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has received amazing rewards from Ruan Mei! <a:RuanMeiCritterPat:1293305929344876635>"
+            footer=f"{member.display_name} has received several amazing rewards from Ruan Mei! <a:RuanMeiCritterPat:1293305929344876635>"
         else:  # Easter egg
             thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
             emote = "🐛"
