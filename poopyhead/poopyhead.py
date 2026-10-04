@@ -84,49 +84,56 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(list(ans["normal"].keys()))
             image = normal[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some minor rewards. <:RuanMeiBugcatVibe:1162001731266297917>"
+            footer=f"{member.display_name} has gained some **minor rewards**."
+            icon = "https://images-ext-1.discordapp.net/external/hxRe-DgHjc7QTVeAP18oyrEqGWPWfqOnrVCaXwqLSxs/https/cdn.discordapp.com/emojis/1162001731266297917.png?format=webp&quality=lossless"
         elif num < 60:
             occurrence = random.choice(list(ans["reward"].keys()))
             image = reward[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has obtained some major rewards! <a:RuanMeiBugcatNom:1161619042486976613>"
+            footer=f"{member.display_name} has obtained some **major rewards!**"
+            icon = "https://images-ext-1.discordapp.net/external/-SD7eMvEB9RJrpqeZ9ZeLQruEcbRF22QeVuK0TX6D8k/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1161619042486976613.webp?animated=true"
         elif num < 70:
             occurrence = random.choice(list(ans["encounter"].keys()))
             image = encounter[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards after a difficult battle. <:RuanMeiCool:1189961968996589598>"
+            footer=f"{member.display_name} has gained **some rewards after a difficult battle**."
+            icon = "https://images-ext-1.discordapp.net/external/xh2ZDXJQ4-k0-S0tB6sKCn46PWwAysaQUCmjF_XBF9o/https/cdn.discordapp.com/emojis/1189961968996589598.png?format=webp&quality=lossless"
         elif num < 80:
             occurrence = random.choice(list(ans["aberration"].keys()))
             image = aberration[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has gained some rewards, but they also received some negative effects. <:RuanMeiBugcatStare:1165171669862727771>"
+            footer=f"{member.display_name} has gained **some rewards**, but they also received **some negative effects**."
+            icon = "https://images-ext-1.discordapp.net/external/-iZ3nVeJdMxq9VdmKgNKLt_LX4e1SKblOl0h20X97jE/https/cdn.discordapp.com/emojis/1165171669862727771.png?format=webp&quality=lossless"
         elif num < 90:
             occurrence = random.choice(list(ans["death"].keys()))
             image = death[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has unfortunately been defeated after a difficult battle. <:RuanMeiCrine:1209013690922303528>"
+            footer=f"{member.display_name} has unfortunately been **defeated after a difficult battle**."
+            icon = "https://images-ext-1.discordapp.net/external/eNqTBrhnfpRl8ofJvseKFbi2x5xZdCKrPtLHChhLFfI/https/cdn.discordapp.com/emojis/1209013690922303528.png?format=webp&quality=lossless"
         elif num < 100:
             occurrence = random.choice(list(ans["negative"].keys()))
             image = negative[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has obtained some negative effects and curios. <:RuanMeiBugcatGrab:1161653782233489500>"
+            footer=f"{member.display_name} has obtained some **negative effects and curios**."
+            icon = "https://images-ext-1.discordapp.net/external/bPm9OBW2fdVtm_taXkmAqs6QHb-rnlMTnDJ2xiAZOOY/https/cdn.discordapp.com/emojis/1161653782233489500.png?format=webp&quality=lossless"
         elif num == 100:
             occurrence = random.choice(list(ans["special"].keys()))
             image = special[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has received several amazing rewards from Ruan Mei! <a:RuanMeiCritterPat:1293305929344876635>"
+            footer=f"{member.display_name} has received several amazing rewards from Ruan Mei!"
+            icon = "https://images-ext-1.discordapp.net/external/hxlZZ7qZ281J4pFcG1mTW0kc07OcGt3EMfAfO6WT9gk/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1293305929344876635.webp?animated=true"
         else:  # Easter egg
             thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
             emote = "🐛"
             answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused."
 
         embed = discord.Embed(
-            title=f"{member.mention}'s Simulated Universe Occurrence is...",
+            title=f"{member.display_name}'s Simulated Universe Occurrence is...",
             description=description,
             colour=discord.Colour.random()
         )
         embed.set_image(url=image)
-        embed.set_footer(text=footer)
+        embed.set_footer(text=footer, icon_url=icon)
         
         await ctx.send(embed=embed)
     
