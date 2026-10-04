@@ -73,7 +73,7 @@ class HahaFunny(commands.Cog):
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some major rewards!"
         elif num < 70:
-            occurrence = random.choice(ans[2]["encounter"]))
+            occurrence = random.choice(ans[2]["encounter"])
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained rewards after a difficult battle."
         elif num < 80:
