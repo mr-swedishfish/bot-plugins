@@ -11,12 +11,12 @@ normal = {
             "Divine Treasures (I)": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Occurrence_Hero.png/revision/latest?cb=20250226024103",
             "Divine Treasures (II)": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Occurrence_Hero.png/revision/latest?cb=20250226024103",
             "Divine Treasures (III)": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Occurrence_Hero.png/revision/latest?cb=20250226024103",
-            "Dolos Dice": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Occurrence_Dolos.png/revision/latest?cb=20250226031142"
+            "Dolos Dice": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c8/Occurrence_Dolos.png/revision/latest?cb=20250226031142",
 }
     
 reward = {
             "Conquer the Sky (I)": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Occurrence_Salesperson.png/revision/latest?cb=20231211014740",
-            "Cyrene": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Occurrence_Cyrene.png/revision/latest?cb=20250925231212"
+            "Cyrene": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Occurrence_Cyrene.png/revision/latest?cb=20250925231212",
 }
 
 encounter = {
@@ -26,14 +26,14 @@ encounter = {
             "Boardtop Theater": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Occurrence_Theater.png/revision/latest?cb=20250226024107",
             "Contest of Accord": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Occurrence_Contest.png/revision/latest?cb=20240717190104",
             "Culinary Colosseum": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b8/Occurrence_Trashcan.png/revision/latest?cb=20240806021522",
-            "Dangerous Feeding": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Occurrence_Dangerous_Feeding.png/revision/latest?cb=20240820000953"
+            "Dangerous Feeding": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Occurrence_Dangerous_Feeding.png/revision/latest?cb=20240820000953",
 }
     
 aberration = {
             "Beast Horde: Voracious Catastrophe": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/64/Occurrence_Beast_Horde.png/revision/latest?cb=20231211014721",
             "Cheat Code (I)": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Occurrence_Default.png/revision/latest?cb=20231211014736",
             "Cheat Code (II)": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Occurrence_Default.png/revision/latest?cb=20231211014736",
-            "Corrupt Deal": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Occurrence_Black_Tide.png/revision/latest?cb=20250226024109"
+            "Corrupt Deal": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Occurrence_Black_Tide.png/revision/latest?cb=20250226024109",
 }
     
 death = {
@@ -43,18 +43,18 @@ death = {
             "Boardtop Theater": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Occurrence_Theater.png/revision/latest?cb=20250226024107",
             "Contest of Accord": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Occurrence_Contest.png/revision/latest?cb=20240717190104",
             "Culinary Colosseum": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b8/Occurrence_Trashcan.png/revision/latest?cb=20240806021522",
-            "Dangerous Feeding": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Occurrence_Dangerous_Feeding.png/revision/latest?cb=20240820000953"
+            "Dangerous Feeding": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/66/Occurrence_Dangerous_Feeding.png/revision/latest?cb=20240820000953",
 }
 
 negative = {
             "Beast Horde: Voracious Catastrophe": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/64/Occurrence_Beast_Horde.png/revision/latest?cb=20231211014721",
             "Cheat Code (I)": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Occurrence_Default.png/revision/latest?cb=20231211014736",
             "Cheat Code (II)": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Occurrence_Default.png/revision/latest?cb=20231211014736",
-            "Corrupt Deal": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Occurrence_Black_Tide.png/revision/latest?cb=20250226024109"
+            "Corrupt Deal": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Occurrence_Black_Tide.png/revision/latest?cb=20250226024109",
 }
 
 special = {
             "Ruan Mei": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Occurrence_Ruan_Mei.png/revision/latest?cb=20231211014733",
             "Ruan Mei (II)": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Occurrence_Ruan_Mei_2.png/revision/latest?cb=20231211014725",
-            "Ruan Mei (III)": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Occurrence_Ruan_Mei_3.png/revision/latest?cb=20240722031820"
+            "Ruan Mei (III)": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Occurrence_Ruan_Mei_3.png/revision/latest?cb=20240722031820",
 }        
