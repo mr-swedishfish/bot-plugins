@@ -114,7 +114,7 @@ class HahaFunny(commands.Cog):
             occurrence = random.choice(list(ans["negative"].keys()))
             image = negative[occurrence]
             description=f"# {occurrence}"
-            footer=f"{member.display_name} has obtained some negative effects and curios."
+            footer=f"{member.display_name} has obtained some negative effects."
             icon = "https://images-ext-1.discordapp.net/external/bPm9OBW2fdVtm_taXkmAqs6QHb-rnlMTnDJ2xiAZOOY/https/cdn.discordapp.com/emojis/1161653782233489500.png?format=webp&quality=lossless"
         elif num == 100:
             occurrence = random.choice(list(ans["special"].keys()))
