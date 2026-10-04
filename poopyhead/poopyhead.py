@@ -65,37 +65,37 @@ class HahaFunny(commands.Cog):
             ans = json.load(f)
         
         if num < 50:
-            occurrence = random.choice(normal.keys())
+            occurrence = random.choice(ans[0]["normal"])
             image = normal[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some minor rewards."
         elif num < 60:
-            occurrence = random.choice(reward.keys())
+            occurrence = random.choice(ans[1]["reward"])
             image = reward[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some major rewards!"
         elif num < 70:
-            occurrence = random.choice(encounter.keys())
+            occurrence = random.choice(ans[2]["encounter"]))
             image = encounter[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained rewards after a difficult battle."
         elif num < 80:
-            occurrence = random.choice(aberration.keys())
+            occurrence = random.choice(ans[3]["aberration"])
             image = aberration[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some rewards but also received some negative effects."
         elif num < 90:
-            occurrence = random.choice(death.keys())
+            occurrence = random.choice(ans[4]["death"])
             image = death[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has unfortunately died after a difficult battle."
         elif num < 100:
-            occurrence = random.choice(negative.keys())
+            occurrence = random.choice(ans[5]["negative"])
             image = negative[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has obtained some negative effects and curios."
         elif num == 100:
-            occurrence = random.choice(special.keys())
+            occurrence = random.choice(ans[6]["special"])
             image = special[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has obtained amazing rewards from Ruan Mei!"
