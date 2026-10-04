@@ -126,7 +126,7 @@ class HahaFunny(commands.Cog):
             colour=discord.Colour.random()
         )
         embed.set_image(url=image)
-        embed.set_footer(footer=footer)
+        embed.set_footer(text=footer)
         
         await ctx.send(embed=embed)
     
