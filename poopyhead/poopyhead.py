@@ -80,31 +80,31 @@ class HahaFunny(commands.Cog):
         negative = ans["negative"]
         special = ans["special"]
         
-        if num < 50:
+        if num < 60:
             occurrence = random.choice(list(ans["normal"].keys()))
             image = normal[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some minor rewards."
             icon = "https://images-ext-1.discordapp.net/external/hxRe-DgHjc7QTVeAP18oyrEqGWPWfqOnrVCaXwqLSxs/https/cdn.discordapp.com/emojis/1162001731266297917.png?format=webp&quality=lossless"
-        elif num < 60:
+        elif num < 70:
             occurrence = random.choice(list(ans["reward"].keys()))
             image = reward[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has obtained some major rewards!"
             icon = "https://images-ext-1.discordapp.net/external/-SD7eMvEB9RJrpqeZ9ZeLQruEcbRF22QeVuK0TX6D8k/%3Fanimated%3Dtrue/https/cdn.discordapp.com/emojis/1161619042486976613.webp?animated=true"
-        elif num < 70:
+        elif num < 80:
             occurrence = random.choice(list(ans["encounter"].keys()))
             image = encounter[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has earned major rewards after a difficult battle."
             icon = "https://images-ext-1.discordapp.net/external/xh2ZDXJQ4-k0-S0tB6sKCn46PWwAysaQUCmjF_XBF9o/https/cdn.discordapp.com/emojis/1189961968996589598.png?format=webp&quality=lossless"
-        elif num < 80:
+        elif num < 85:
             occurrence = random.choice(list(ans["aberration"].keys()))
             image = aberration[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some rewards, but they also received some negative effects."
             icon = "https://images-ext-1.discordapp.net/external/-iZ3nVeJdMxq9VdmKgNKLt_LX4e1SKblOl0h20X97jE/https/cdn.discordapp.com/emojis/1165171669862727771.png?format=webp&quality=lossless"
-        elif num < 90:
+        elif num < 95:
             occurrence = random.choice(list(ans["death"].keys()))
             image = death[occurrence]
             description=f"# {occurrence}"
