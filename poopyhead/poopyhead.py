@@ -73,44 +73,44 @@ class HahaFunny(commands.Cog):
             ans = json.load(f)
         
         if num < 50:
-            occurrence = random.choice(ans["normal"].keys())
+            occurrence = random.choice(list(ans["normal"].keys()))
             image = normal[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some minor rewards. <:RuanMeiBugcatVibe:1162001731266297917>"
         elif num < 60:
-            occurrence = random.choice(ans["reward"].keys())
+            occurrence = random.choice(list(ans["reward"].keys()))
             image = reward[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has obtained some major rewards! <a:RuanMeiBugcatNom:1161619042486976613>"
         elif num < 70:
-            occurrence = random.choice(ans["encounter"].keys())
+            occurrence = random.choice(list(ans["encounter"].keys()))
             image = encounter[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some rewards after a difficult battle. <:RuanMeiCool:1189961968996589598>"
         elif num < 80:
-            occurrence = random.choice(ans["aberration"].keys())
+            occurrence = random.choice(list(ans["aberration"].keys()))
             image = aberration[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some rewards, but they also received some negative effects. <:RuanMeiBugcatStare:1165171669862727771>"
         elif num < 90:
-            occurrence = random.choice(ans["death"].keys())
+            occurrence = random.choice(list(ans["death"].keys()))
             image = death[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has unfortunately been defeated after a difficult battle. <:RuanMeiCrine:1209013690922303528>"
         elif num < 100:
-            occurrence = random.choice(ans["negative"].keys())
+            occurrence = random.choice(list(ans["negative"].keys()))
             image = negative[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has obtained some negative effects and curios. <:RuanMeiBugcatGrab:1161653782233489500>"
         elif num == 100:
-            occurrence = random.choice(ans["special"].keys())
+            occurrence = random.choice(list(ans["special"].keys()))
             image = special[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has received several amazing rewards from Ruan Mei! <a:RuanMeiCritterPat:1293305929344876635>"
         else:  # Easter egg
             thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
             emote = "🐛"
-            answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
+            answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused."
 
         embed = discord.Embed(
             title=f"Your Simulated Universe Occurrence is...",
