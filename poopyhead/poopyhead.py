@@ -48,6 +48,7 @@ POOP_STICKERS = [
     "https://images-ext-1.discordapp.net/external/U3bo2JI-X_RWgMiebWZniQRNus_cZXDnQ3b032tDpl4/https/cdn.discordapp.com/emojis/1155581415262539826.png?format=webp&quality=lossless",
     "https://images-ext-1.discordapp.net/external/MHca6VjNMnuMuiCm2KXE41Zxltoy7dtstlD8cBgQMkU/https/cdn.discordapp.com/emojis/1185314913518887073.png?format=webp&quality=lossless",
     "https://images-ext-1.discordapp.net/external/iNU51C1PoT3PmOa5G9rxFIyvHE6AQ1iws9fuUP5Y1ys/https/cdn.discordapp.com/emojis/1186205999833554974.png?format=webp&quality=lossless",
+    "https://images-ext-1.discordapp.net/external/DwS2wO9iw9dEvgApXiVokwkDJifhr7GTRUMpb7hdJnA/https/cdn.discordapp.com/emojis/1162371231497064538.png?format=webp&quality=lossless",
     "https://media.discordapp.net/attachments/887963616182145044/1220612436139311124/Ruan_Mei_Yawn.png?ex=660f92ea&is=65fd1dea&hm=e7f143eff843e15bfb3953fae21b0923b1674e0cbf77f299f470b858adb61faa&=&format=webp&quality=lossless&width=655&height=655"
 ]
 
