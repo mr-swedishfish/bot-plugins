@@ -70,7 +70,7 @@ class HahaFunny(commands.Cog):
         num = random.randint(0, 100)
 
         with open(f'{DIR}/occurrences.json') as f:
-            ans = json.load(f)
+            ans = json.loads(f)
         
         if num < 50:
             occurrence = random.choice(ans[normal.keys()])
