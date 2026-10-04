@@ -50,7 +50,68 @@ class HahaFunny(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    # PearlGPT T5
+    # Simulated Universe Occurrences
+    @checks.has_permissions(PermissionLevel.REGULAR)
+    @commands.command(aliases=['occurrence', 'su', 'domain'])
+    async def occurrence(self, ctx: commands.Context, member: commands.MemberConverter = None):
+        """Enter a domain and see what occurrence you get!"""
+        
+        if member is None:
+            member = ctx.author
+            
+        num = random.randint(0, 100)
+
+        with open(f'{DIR}/occurrences.json') as f:
+            ans = json.load(f)
+        
+        if num < 50:
+            occurrence = random.choice(normal.keys())
+            image = normal[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has gained some minor rewards."
+        elif num < 60:
+            occurrence = random.choice(reward.keys())
+            image = reward[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has gained some major rewards!"
+        elif num < 70:
+            occurrence = random.choice(encounter.keys())
+            image = encounter[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has gained rewards after a difficult battle."
+        elif num < 80:
+            occurrence = random.choice(aberration.keys())
+            image = aberration[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has gained some rewards but also received some negative effects."
+        elif num < 90:
+            occurrence = random.choice(death.keys())
+            image = death[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has unfortunately died after a difficult battle."
+        elif num < 100:
+            occurrence = random.choice(negative.keys())
+            image = negative[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has obtained some negative effects and curios."
+        elif num == 100:
+            occurrence = random.choice(special.keys())
+            image = special[occurrence]
+            description=f"# {occurrence}"
+            footer=f"{member.display_name} has obtained amazing rewards from Ruan Mei!"
+        else:  # Easter egg
+            thumbnail = "https://s3.blankdvth.com/74b72448-f31f-4d85-a765-fa04bca84edd.jpg"
+            emote = "🐛"
+            answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused. (`{num}`)"
+
+        embed = discord.Embed(
+            title=f"Your Simulated Universe Occurrence is...",
+            colour=discord.Colour.random()
+        )
+        
+        await ctx.send(embed=embed)
+    
+    # PearlGPT
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['pearl', 'gpt', 'pearlgpt'])
     async def pearlgptt5(self, ctx: commands.Context, tier: str = ""):
