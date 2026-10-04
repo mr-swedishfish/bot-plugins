@@ -78,7 +78,7 @@ class HahaFunny(commands.Cog):
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some minor rewards."
         elif num < 60:
-            occurrence = random.choice(ans[ans["reward"].keys())
+            occurrence = random.choice(ans["reward"].keys())
             image = reward[occurrence]
             description=f"# {occurrence}"
             footer=f"{member.display_name} has gained some major rewards!"
