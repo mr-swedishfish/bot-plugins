@@ -128,7 +128,7 @@ class HahaFunny(commands.Cog):
             answer = f"You've won, you've done the impossible. Contact the bot devs to see them become confused."
 
         embed = discord.Embed(
-            title=f"{member.display_name}'s Simulated Universe Occurrence is...",
+            title=f"Your Simulated Universe Occurrence is...",
             description=description,
             colour=discord.Colour.random()
         )
