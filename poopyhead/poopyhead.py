@@ -122,8 +122,11 @@ class HahaFunny(commands.Cog):
 
         embed = discord.Embed(
             title=f"{member.mention}'s Simulated Universe Occurrence is...",
+            image=image,
+            description=description,
             colour=discord.Colour.random()
         )
+        embed.set_footer(footer=footer)
         
         await ctx.send(embed=embed)
     
