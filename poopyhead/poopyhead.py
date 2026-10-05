@@ -145,6 +145,9 @@ class HahaFunny(commands.Cog):
 
         num = random.randint(0, 100)
         tiers = ["T0", "T5"]
+        limited = ans["limited"]
+        standard = ans["standard"]
+        fourstar = ans["four star"]
 
         with open(f'{DIR}/hsrcharacters.json') as f:
             ans = json.load(f)
@@ -159,11 +162,14 @@ class HahaFunny(commands.Cog):
             return await ctx.send("Please specify either T0, T5, or no tier!")
         
         if num < 80:
-            answer = random.choice(ans[0]["limited"])
+            answer = random.choice(list(ans["limited"].keys()))
+            image = limited[answer]
         elif num < 90:
-            answer = random.choice(ans[1]["standard"])
+            answer = random.choice(list(ans["standard"].keys()))
+            image = standard[answer]
         elif num < 100:
-            answer = random.choice(ans[2]["four star"])
+            answer = random.choice(list(ans["four star"].keys()))
+            image = fourstar[answer]
         elif num == 100:
             thumbnail = "https://images-ext-1.discordapp.net/external/PU1lx5ZwM7y13xF8hynVRja-z3zGhKynu8cIRknJNw0/https/cdn.discordapp.com/emojis/1293305929344876635.gif?width=168&height=168"
             emote = discord.utils.get(ctx.guild.emojis, id=1161619042486976613)
@@ -178,6 +184,7 @@ class HahaFunny(commands.Cog):
             description=f":robot: GENERATING :robot: \n\n10% \n30% \n67% \n100% \n\n:robot: YOUR **{rank}** CHARACTER IS :robot: \n\n# {answer}",
             colour=discord.Colour.random()
         )
+        embed.set_image(url=image)
         
         await ctx.send(embed=embed)
     
@@ -270,6 +277,7 @@ class HahaFunny(commands.Cog):
             description=f"{emote} {member.display_name} {answer}",
             colour=discord.Colour.random()
         )
+    
         embed.set_thumbnail(url=thumbnail)
         
         await ctx.send(embed=embed)
