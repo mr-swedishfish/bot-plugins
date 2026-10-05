@@ -139,7 +139,7 @@ class HahaFunny(commands.Cog):
     
     # PearlGPT
     @checks.has_permissions(PermissionLevel.REGULAR)
-    @commands.command(aliases=['gpt', 'pearlgpt'])
+    @commands.command(aliases=['pearlgpt'])
     async def pearlgptt5(self, ctx: commands.Context, tier: str = ""):
         """Beep Boop. I am PearlGPT, and I will tell you who is T0 or T5"""
 
