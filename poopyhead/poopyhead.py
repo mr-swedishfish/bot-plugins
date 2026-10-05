@@ -143,14 +143,14 @@ class HahaFunny(commands.Cog):
     async def pearlgptt5(self, ctx: commands.Context, tier: str = ""):
         """Beep Boop. I am PearlGPT, and I will tell you who is T0 or T5"""
 
+        with open(f'{DIR}/hsrcharacters.json') as f:
+            ans = json.load(f)
+        
         num = random.randint(0, 100)
         tiers = ["T0", "T5"]
         limited = ans["limited"]
         standard = ans["standard"]
         fourstar = ans["four star"]
-
-        with open(f'{DIR}/hsrcharacters.json') as f:
-            ans = json.load(f)
 
         if tier in ["t0", "T0", "0"]:
             rank = "T0"
