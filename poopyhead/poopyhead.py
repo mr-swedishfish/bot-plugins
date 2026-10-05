@@ -140,7 +140,7 @@ class HahaFunny(commands.Cog):
     # PearlGPT
     @checks.has_permissions(PermissionLevel.REGULAR)
     @commands.command(aliases=['pearl', 'gpt', 'pearlgpt'])
-    async def pearlgptt5(self, ctx: commands.Context, tier: str = ""):
+    async def pearlgpt(self, ctx: commands.Context, tier: str = ""):
         """Beep Boop. I am PearlGPT, and I will tell you who is T0 or T5"""
 
         with open(f'{DIR}/hsrcharacters.json') as f:
