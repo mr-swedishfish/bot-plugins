@@ -185,6 +185,7 @@ class HahaFunny(commands.Cog):
             colour=discord.Colour.random()
         )
         embed.set_image(url=image)
+        embed.set_thumbnail(url="https://media.discordapp.net/attachments/1223541148815982613/1556658964333203518/pearlloading_1.png?backend=b2&ex=6ac4f722&is=6ac3a5a2&hm=b52210596fec09ea0aea3159db445e44b5fa691702f78af58ffd8f276834b4bc&=&format=webp&quality=lossless")
         
         await ctx.send(embed=embed)
     
