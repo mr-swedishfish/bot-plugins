@@ -216,8 +216,8 @@ class HahaFunny(commands.Cog):
             description=f"{member.mention} is now **banned** from Ruan Mei Mains.",
             colour=discord.Colour.red()
         )
-        embed.set_thumbnail(url=random.choice(POOP_STICKERS))
-        embed.set_footer(text=footer_text)
+        embed.set_thumbnail(url=member.display_avatar.url)
+        embed.set_footer(text=footer_text, icon_url=random.choice(POOP_STICKERS))
             
         await ctx.send(embed=embed)
     
